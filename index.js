@@ -7,7 +7,13 @@
 
 function findMatching(drivers, match) {
   let matchyBois = drivers.filter(function(matches) {
-    return matches === match;
+    let doubleCheck = match.toLowerCase(); 
+    if (matches === match) {
+        return matches === match;  
+    }
+    else if (matches === doubleCheck) {
+        return matches === doubleCheck; 
+    }
   } );
   return matchyBois;
 }
