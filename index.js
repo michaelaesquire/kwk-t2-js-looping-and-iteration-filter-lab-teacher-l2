@@ -28,7 +28,7 @@ function fuzzyMatch(drivers, match) {
 function matchName(drivers,match) {
   let matchyBois = drivers.filter(function(matches) {
 
-        return matches === match;
+      return matches.name === match;
 
 
   } );
