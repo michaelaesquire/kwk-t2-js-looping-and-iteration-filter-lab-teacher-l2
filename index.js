@@ -19,5 +19,14 @@ function findMatching(drivers, match) {
 }
 
 function fuzzyMatch(drivers, match) {
+    return drivers.filter(function(el) {
+      return el.toLowerCase().indexOf(match.toLowerCase()) >-1;
+    }
 
 }
+
+/* function filterItems(query) {
+  return fruits.filter(function(el) {
+      return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
+  })
+} */
