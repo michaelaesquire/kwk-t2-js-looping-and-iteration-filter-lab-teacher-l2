@@ -18,6 +18,6 @@ function findMatching(drivers, match) {
   return matchyBois;
 }
 
-function fuzzyMatch() {
-  
+function fuzzyMatch(drivers, match) {
+
 }
