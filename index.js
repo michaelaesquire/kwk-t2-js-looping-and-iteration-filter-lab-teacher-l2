@@ -25,8 +25,6 @@ function fuzzyMatch(drivers, match) {
 
 }
 
-/* function filterItems(query) {
-  return fruits.filter(function(el) {
-      return el.toLowerCase().indexOf(query.toLowerCase()) > -1;
-  })
-} */
+function matchName(drivers,match) {
+  
+}
