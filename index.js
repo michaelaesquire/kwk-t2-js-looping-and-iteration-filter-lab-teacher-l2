@@ -27,13 +27,10 @@ function fuzzyMatch(drivers, match) {
 
 function matchName(drivers,match) {
   let matchyBois = drivers.filter(function(matches) {
-    let doubleCheck = match.toLowerCase();
-    if (matches === match) {
+
         return matches === match;
-    }
-    else if (matches === doubleCheck) {
-        return matches === doubleCheck;
-    }
+
+
   } );
   return matchyBois;
 }
