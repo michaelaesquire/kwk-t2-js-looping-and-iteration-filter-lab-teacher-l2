@@ -15,7 +15,7 @@ function findMatching(drivers, match) {
         return matches === doubleCheck;
     }
   } );
-//  return matchyBois;
+  return matchyBois;
 }
 
 function fuzzyMatch(drivers, match) {
