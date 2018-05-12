@@ -18,10 +18,10 @@ function findMatching(drivers, match) {
   return matchyBois;
 }
 
-/*function fuzzyMatch(drivers, match) {
+function fuzzyMatch(drivers, match) {
     return drivers.filter(function(el) {
       return el.toLowerCase().indexOf(match.toLowerCase()) >-1;
-    }
+    })
 
 }
 
